@@ -9,7 +9,7 @@ router.post("/products", createProduct);
 router.get("/health", (req, res) => {
   return res.status(200).json({
     status: "OK",
-    message: "Microservicio corriendo correctamente",
+    message: "Hola Juanpablo",
   });
 });
 
